@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { Space } from 'antd';
 import Option from './Option';
 
 interface Props {
@@ -10,11 +11,11 @@ const Question = ({questionText, options}: Props) => {
   return (
     <div>
       <div>{questionText}</div>
-      <div>
+      <Space direction="vertical" size="middle"  >
         {options.map((option, index) => {
           return <Option optionText={option} key={index}/>
         })}
-      </div>
+      </Space>
     </div>
   );
 }

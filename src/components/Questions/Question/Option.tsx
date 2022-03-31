@@ -1,4 +1,5 @@
 import * as React from 'react';
+import {Card} from 'antd';
 
 interface Props {
   optionText: string;
@@ -6,7 +7,7 @@ interface Props {
 
 const Option = ({optionText}: Props) => {
   return (
-    <li>{optionText}</li>
+    <Card bodyStyle={{border: '2px solid blue'}}>{optionText}</Card>
   ) 
 }
 
