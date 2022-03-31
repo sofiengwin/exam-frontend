@@ -1,5 +1,4 @@
 export const questions = [
-  [
     {
         "id": "5f82e1e1-f715-4a93-8b2a-eeeaad13c3e9",
         "questionId": "ce063c9a-c1da-4876-9f01-99241588537f",
@@ -200,5 +199,4 @@ export const questions = [
         ],
         "__typename": "Assessments_AttemptQuestion"
     }
-],
 ]
