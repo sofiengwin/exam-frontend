@@ -7,7 +7,7 @@ interface Props {
 
 const Option = ({optionText}: Props) => {
   return (
-    <Card bodyStyle={{border: '2px solid blue'}}>{optionText}</Card>
+    <Card bodyStyle={{border: '2px solid blue', cursor: 'pointer'}}>{optionText}</Card>
   ) 
 }
 
