@@ -17,6 +17,7 @@ const Container = styled.div`
 
 const Centered = styled.div`
   background: red;
+  width: 30%;
 `;
 
 const ButtonContainer = styled.div`
@@ -29,6 +30,7 @@ const QuestionsHeader = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 `;
 
 
@@ -53,7 +55,7 @@ const Questions = () => {
                 src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
               />
             }
-            style={{ width: 700 }}
+            style={{ }}
             bordered
             headStyle={{borderBottom: '4px solid black'}}
           >
