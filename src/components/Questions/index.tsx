@@ -17,7 +17,7 @@ const Container = styled.div`
 
 const Centered = styled.div`
   background: red;
-  width: 30%;
+  width: 70%;
 `;
 
 const ButtonContainer = styled.div`
