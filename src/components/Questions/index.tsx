@@ -1,19 +1,11 @@
 import * as React from 'react';
 import { Space, Card, Button, Typography } from 'antd';
 import {questions} from '../../utils/mockQuestions'
+import {Container} from '../common/styles'
 import Question from './Question';
 import styled from 'styled-components';
 
 const { Title } = Typography;
-
-const Container = styled.div`
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  background: green;
-  justify-content: center;
-  align-items: center;
-`;
 
 const Centered = styled.div`
   background: red;
